@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, .1);
+}
+
+.content {
+    width: 50vw;
+    min-width: 300px;
+    background: white;
+    padding: 10px 20px 0 !important;
+    margin: 10px auto;
+    border: white 1px solid !important;
+    border-radius: 10px !important;
+}
+
+.content .titre {
+    padding: 0;
+    margin: 0;
+}
+
+.boutton {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#btn_modification {
+    margin-left: 30%;
+}
+
+.table_etudiant {
+    position: relative;
+    height: auto;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.table_etudiant thead {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+}
+
+.content-note {
+    min-width: 300px;
+    background: white;
+    padding: 0px 0px 10px 20px !important;
+    margin: 10px auto;
+    border: white 1px solid !important;
+    border-radius: 10px !important;
+}
+
+.note-content {
+    width: 50vw;
+    min-width: 300px;
+    background: white;
+    padding: 0px 50px 0 !important;
+    margin: 10px auto;
+    border: white 1px solid !important;
+    border-radius: 10px !important;
+}
+
+.note-content label,
+.note-content input {
+    display: inline-block;
+    width: 040%;
+}
+
+.note-content select {
+    display: inline-block;
+    width: auto;
+    max-width: 50%;
+}
+
+.note-content #b_note,
+.note-content #b_matiere_modif {
+    margin-left: 035%;
+}
+
+.gestion-content {
+    width: 300px;
+    padding: 10px 20px;
+    background: white;
+}

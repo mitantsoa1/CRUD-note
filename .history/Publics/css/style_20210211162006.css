@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, .1);
+}
+
+.content {
+    width: 50vw;
+    min-width: 300px;
+    background: white;
+    padding: 10px 20px 0 !important;
+    margin: 10px auto;
+    border: white 1px solid !important;
+    border-radius: 10px !important;
+}
+
+.content .titre {
+    padding: 0;
+    margin: 0;
+}
+
+#btn_enregistrer {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
